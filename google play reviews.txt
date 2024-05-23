@@ -1,0 +1,13 @@
+const rev = document.querySelector("div[data-g-id=reviews]").lastChild
+rev.firstChild.firstChild.firstChild.click()
+
+
+
+const scEle = document.querySelector("div[aria-label=Instagram]").lastChild.lastChild.lastChild.lastChild.lastChild
+
+
+
+
+scEle.childNodes[1].lastChild.scrollIntoView()
+
+
